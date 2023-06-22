@@ -1,0 +1,21 @@
+.like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .like-button:focus {
+    outline: none;
+  }
+  
+  .like-button-icon {
+    font-size: 100px;
+    color: rgb(133, 29, 231);
+    transition: color 0.2s ease;
+  }
+  
+  .like-button-liked .like-button-icon {
+    color: rgb(133, 29, 231);
+  }
+  
